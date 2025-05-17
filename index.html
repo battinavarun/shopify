@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Store | Premium Running Shoes</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">ModernStore</div>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section class="product">
+            <!-- Product Gallery -->
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="https://via.placeholder.com/600x600" alt="Product Image" id="mainImage">
+                </div>
+                <div class="thumbnails">
+                    <div class="thumbnail active" data-image="https://via.placeholder.com/600x600">
+                        <img src="https://via.placeholder.com/100x100" alt="Thumbnail 1">
+                    </div>
+                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600/ff6b6b/ffffff">
+                        <img src="https://via.placeholder.com/100x100/ff6b6b/ffffff" alt="Thumbnail 2">
+                    </div>
+                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600/5f27cd/ffffff">
+                        <img src="https://via.placeholder.com/100x100/5f27cd/ffffff" alt="Thumbnail 3">
+                    </div>
+                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600/1dd1a1/ffffff">
+                        <img src="https://via.placeholder.com/100x100/1dd1a1/ffffff" alt="Thumbnail 4">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Info -->
+            <div class="product-info">
+                <span class="product-tag">New Arrival</span>
+                <h1 class="product-title">Premium Ultralight Running Shoes</h1>
+                <div class="product-rating">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.5 (128 reviews)</span>
+                </div>
+                <div class="product-price">
+                    <span class="price">$149.99</span>
+                    <span class="original-price">$189.99</span>
+                </div>
+                
+                <div class="product-variants">
+                    <div class="variant-section">
+                        <label>Color</label>
+                        <div class="color-options">
+                            <div class="color-option active" style="background-color: #000;"></div>
+                            <div class="color-option" style="background-color: #ff6b6b;"></div>
+                            <div class="color-option" style="background-color: #5f27cd;"></div>
+                            <div class="color-option" style="background-color: #1dd1a1;"></div>
+                        </div>
+                        <button class="compare-colors-btn">Compare Colors</button>
+                    </div>
+                    
+                    <div class="variant-section">
+                        <div class="size-header">
+                            <label>Size</label>
+                            <button class="size-chart-btn">Size Chart</button>
+                        </div>
+                        <div class="size-options">
+                            <div class="size-option">US 7</div>
+                            <div class="size-option">US 8</div>
+                            <div class="size-option active">US 9</div>
+                            <div class="size-option">US 10</div>
+                            <div class="size-option">US 11</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-actions">
+                    <div class="quantity">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="text" value="1" readonly>
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Product Tabs -->
+        <section class="product-tabs">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="description">Description</button>
+                <button class="tab-btn" data-tab="info">Product Information</button>
+                <button class="tab-btn" data-tab="shipping">Shipping Details</button>
+            </div>
+            <div class="tabs-content">
+                <div class="tab-panel active" id="description">
+                    <p>The Premium Ultralight Running Shoes feature a revolutionary design that prioritizes both comfort and performance. Perfect for professional athletes and casual runners alike, these shoes provide superior cushioning, enhanced stability, and breathable materials to keep your feet cool during extended use.</p>
+                    <p>The adaptive sole technology adjusts to your stride, offering personalized support with every step. A reinforced heel counter prevents slippage, while the flexible forefoot allows for natural movement. Experience running like never before.</p>
+                </div>
+                <div class="tab-panel" id="info">
+                    <ul>
+                        <li><strong>Upper Material:</strong> Breathable engineered mesh</li>
+                        <li><strong>Sole:</strong> Responsive EVA with natural rubber outsole</li>
+                        <li><strong>Weight:</strong> 8.5 oz (Men's size 9)</li>
+                        <li><strong>Drop:</strong> 8mm heel-to-toe</li>
+                        <li><strong>Cushioning:</strong> Medium-high</li>
+                        <li><strong>Best For:</strong> Road running, training, casual wear</li>
+                    </ul>
+                </div>
+                <div class="tab-panel" id="shipping">
+                    <p><strong>Free Standard Shipping:</strong> 3-5 business days</p>
+                    <p><strong>Express Shipping:</strong> 1-2 business days ($10)</p>
+                    <p><strong>Free Returns:</strong> Within 30 days of purchase</p>
+                    <p>We ship to all 50 United States and over 100 countries worldwide. International shipping rates and delivery times vary by location.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Bundle Suggestion -->
+        <section class="product-bundle">
+            <h2>Complete Your Running Kit</h2>
+            <div class="bundle-items">
+                <div class="bundle-item">
+                    <img src="https://via.placeholder.com/120x120" alt="Running Shoes">
+                    <div class="bundle-item-info">
+                        <h3>Premium Ultralight Running Shoes</h3>
+                        <p class="bundle-item-price">$149.99</p>
+                    </div>
+                </div>
+                <div class="bundle-plus">+</div>
+                <div class="bundle-item">
+                    <img src="https://via.placeholder.com/120x120/ff6b6b/ffffff" alt="Running Socks">
+                    <div class="bundle-item-info">
+                        <h3>Performance Running Socks (3-Pack)</h3>
+                        <p class="bundle-item-price">$24.99</p>
+                    </div>
+                </div>
+                <div class="bundle-plus">+</div>
+                <div class="bundle-item">
+                    <img src="https://via.placeholder.com/120x120/1dd1a1/ffffff" alt="Running Shorts">
+                    <div class="bundle-item-info">
+                        <h3>Lightweight Running Shorts</h3>
+                        <p class="bundle-item-price">$39.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bundle-summary">
+                <div class="bundle-total">
+                    <p>Bundle Price: <span>$199.99</span></p>
+                    <p class="savings">You Save: $14.98</p>
+                </div>
+                <button class="add-bundle-btn">Add Bundle to Cart</button>
+            </div>
+        </section>
+        
+        <!-- Pair Well With -->
+        <section class="pair-well-with">
+            <h2>Pair Well With</h2>
+            <div class="pair-products">
+                <div class="pair-product">
+                    <img src="https://via.placeholder.com/200x200/1dd1a1/ffffff" alt="Athletic Socks">
+                    <h3>Athletic Ankle Socks</h3>
+                    <p class="pair-product-price">$12.99</p>
+                    <button class="pair-add-btn">Add</button>
+                </div>
+                <div class="pair-product">
+                    <img src="https://via.placeholder.com/200x200/ff6b6b/ffffff" alt="Running Hat">
+                    <h3>Lightweight Running Cap</h3>
+                    <p class="pair-product-price">$19.99</p>
+                    <button class="pair-add-btn">Add</button>
+                </div>
+                <div class="pair-product">
+                    <img src="https://via.placeholder.com/200x200/5f27cd/ffffff" alt="Water Bottle">
+                    <h3>Sports Water Bottle</h3>
+                    <p class="pair-product-price">$24.99</p>
+                    <button class="pair-add-btn">Add</button>
+                </div>
+                <div class="pair-product">
+                    <img src="https://via.placeholder.com/200x200/feca57/ffffff" alt="Fitness Tracker">
+                    <h3>Activity Tracker Band</h3>
+                    <p class="pair-product-price">$49.99</p>
+                    <button class="pair-add-btn">Add</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Related Products -->
+        <section class="related-products">
+            <h2>You May Also Like</h2>
+            <div class="related-grid">
+                <div class="related-product">
+                    <div class="related-badge">Best Seller</div>
+                    <img src="https://via.placeholder.com/300x300/ff6b6b/ffffff" alt="Trail Running Shoes">
+                    <h3>Trail Running Shoes</h3>
+                    <p class="related-product-price">$169.99</p>
+                </div>
+                <div class="related-product">
+                    <div class="related-badge">New</div>
+                    <img src="https://via.placeholder.com/300x300/1dd1a1/ffffff" alt="Walking Shoes">
+                    <h3>Comfort Walking Shoes</h3>
+                    <p class="related-product-price">$129.99</p>
+                </div>
+                <div class="related-product">
+                    <img src="https://via.placeholder.com/300x300/5f27cd/ffffff" alt="Gym Shoes">
+                    <h3>CrossFit Training Shoes</h3>
+                    <p class="related-product-price">$139.99</p>
+                </div>
+                <div class="related-product">
+                    <div class="related-badge">Sale</div>
+                    <img src="https://via.placeholder.com/300x300/feca57/ffffff" alt="Casual Sneakers">
+                    <h3>Everyday Casual Sneakers</h3>
+                    <p class="related-product-price">$89.99</p>
+                    <p class="original-price">$119.99</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for exclusive offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modals -->
+    <div class="modal-overlay" id="sizeChartModal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h3>Size Chart</h3>
+            <table class="size-chart-table">
+                <thead>
+                    <tr>
+                        <th>US Size</th>
+                        <th>EU Size</th>
+                        <th>UK Size</th>
+                        <th>Inches</th>
+                        <th>CM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7</td>
+                        <td>40</td>
+                        <td>6.5</td>
+                        <td>9.6"</td>
+                        <td>24.5</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>41</td>
+                        <td>7.5</td>
+                        <td>9.9"</td>
+                        <td>25.2</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>42</td>
+                        <td>8.5</td>
+                        <td>10.2"</td>
+                        <td>26.0</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>43</td>
+                        <td>9.5</td>
+                        <td>10.6"</td>
+                        <td>26.8</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>44</td>
+                        <td>10.5</td>
+                        <td>10.9"</td>
+                        <td>27.6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="modal-overlay" id="compareColorsModal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h3>Compare Colors</h3>
+            <div class="compare-colors-container">
+                <div class="compare-color-item">
+                    <div class="compare-color-swatch" style="background-color: #000;"></div>
+                    <span>Classic Black</span>
+                    <button class="compare-select-btn">Select</button>
+                </div>
+                <div class="compare-color-item">
+                    <div class="compare-color-swatch" style="background-color: #ff6b6b;"></div>
+                    <span>Vibrant Red</span>
+                    <button class="compare-select-btn">Select</button>
+                </div>
+                <div class="compare-color-item">
+                    <div class="compare-color-swatch" style="background-color: #5f27cd;"></div>
+                    <span>Deep Purple</span>
+                    <button class="compare-select-btn">Select</button>
+                </div>
+                <div class="compare-color-item">
+                    <div class="compare-color-swatch" style="background-color: #1dd1a1;"></div>
+                    <span>Mint Green</span>
+                    <button class="compare-select-btn">Select</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
