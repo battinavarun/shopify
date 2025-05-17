@@ -3,257 +3,416 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Store | Premium Running Shoes</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Modern Comfort Hoodie | StyleShop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav class="container">
-            <div class="logo">ModernStore</div>
-            <div class="nav-icons">
-                <i class="fas fa-search"></i>
-                <i class="fas fa-user"></i>
-                <i class="fas fa-shopping-cart"></i>
-            </div>
-        </nav>
-    </header>
-    
-    <main class="container">
-        <section class="product">
-            <!-- Product Gallery -->
-            <div class="product-gallery">
-                <div class="main-image">
-                    <img src="https://via.placeholder.com/600x600" alt="Product Image" id="mainImage">
-                </div>
-                <div class="thumbnails">
-                    <div class="thumbnail active" data-image="https://via.placeholder.com/600x600">
-                        <img src="https://via.placeholder.com/100x100" alt="Thumbnail 1">
-                    </div>
-                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600/ff6b6b/ffffff">
-                        <img src="https://via.placeholder.com/100x100/ff6b6b/ffffff" alt="Thumbnail 2">
-                    </div>
-                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600/5f27cd/ffffff">
-                        <img src="https://via.placeholder.com/100x100/5f27cd/ffffff" alt="Thumbnail 3">
-                    </div>
-                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600/1dd1a1/ffffff">
-                        <img src="https://via.placeholder.com/100x100/1dd1a1/ffffff" alt="Thumbnail 4">
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Product Info -->
-            <div class="product-info">
-                <span class="product-tag">New Arrival</span>
-                <h1 class="product-title">Premium Ultralight Running Shoes</h1>
-                <div class="product-rating">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <span>4.5 (128 reviews)</span>
-                </div>
-                <div class="product-price">
-                    <span class="price">$149.99</span>
-                    <span class="original-price">$189.99</span>
-                </div>
-                
-                <div class="product-variants">
-                    <div class="variant-section">
-                        <label>Color</label>
-                        <div class="color-options">
-                            <div class="color-option active" style="background-color: #000;"></div>
-                            <div class="color-option" style="background-color: #ff6b6b;"></div>
-                            <div class="color-option" style="background-color: #5f27cd;"></div>
-                            <div class="color-option" style="background-color: #1dd1a1;"></div>
-                        </div>
-                        <button class="compare-colors-btn">Compare Colors</button>
-                    </div>
-                    
-                    <div class="variant-section">
-                        <div class="size-header">
-                            <label>Size</label>
-                            <button class="size-chart-btn">Size Chart</button>
-                        </div>
-                        <div class="size-options">
-                            <div class="size-option">US 7</div>
-                            <div class="size-option">US 8</div>
-                            <div class="size-option active">US 9</div>
-                            <div class="size-option">US 10</div>
-                            <div class="size-option">US 11</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="product-actions">
-                    <div class="quantity">
-                        <button class="quantity-btn minus">-</button>
-                        <input type="text" value="1" readonly>
-                        <button class="quantity-btn plus">+</button>
-                    </div>
-                    <button class="add-to-cart-btn">Add to Cart</button>
-                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Product Tabs -->
-        <section class="product-tabs">
-            <div class="tabs-header">
-                <button class="tab-btn active" data-tab="description">Description</button>
-                <button class="tab-btn" data-tab="info">Product Information</button>
-                <button class="tab-btn" data-tab="shipping">Shipping Details</button>
-            </div>
-            <div class="tabs-content">
-                <div class="tab-panel active" id="description">
-                    <p>The Premium Ultralight Running Shoes feature a revolutionary design that prioritizes both comfort and performance. Perfect for professional athletes and casual runners alike, these shoes provide superior cushioning, enhanced stability, and breathable materials to keep your feet cool during extended use.</p>
-                    <p>The adaptive sole technology adjusts to your stride, offering personalized support with every step. A reinforced heel counter prevents slippage, while the flexible forefoot allows for natural movement. Experience running like never before.</p>
-                </div>
-                <div class="tab-panel" id="info">
+        <div class="container">
+            <nav>
+                <div class="logo">StyleShop</div>
+                <div class="nav-menu">
                     <ul>
-                        <li><strong>Upper Material:</strong> Breathable engineered mesh</li>
-                        <li><strong>Sole:</strong> Responsive EVA with natural rubber outsole</li>
-                        <li><strong>Weight:</strong> 8.5 oz (Men's size 9)</li>
-                        <li><strong>Drop:</strong> 8mm heel-to-toe</li>
-                        <li><strong>Cushioning:</strong> Medium-high</li>
-                        <li><strong>Best For:</strong> Road running, training, casual wear</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="tab-panel" id="shipping">
-                    <p><strong>Free Standard Shipping:</strong> 3-5 business days</p>
-                    <p><strong>Express Shipping:</strong> 1-2 business days ($10)</p>
-                    <p><strong>Free Returns:</strong> Within 30 days of purchase</p>
-                    <p>We ship to all 50 United States and over 100 countries worldwide. International shipping rates and delivery times vary by location.</p>
+                <div class="nav-icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
                 </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="#">Home</a> / <a href="#">Men's Collection</a> / <span>Modern Comfort Hoodie</span>
             </div>
-        </section>
-        
-        <!-- Bundle Suggestion -->
-        <section class="product-bundle">
-            <h2>Complete Your Running Kit</h2>
-            <div class="bundle-items">
-                <div class="bundle-item">
-                    <img src="https://via.placeholder.com/120x120" alt="Running Shoes">
-                    <div class="bundle-item-info">
-                        <h3>Premium Ultralight Running Shoes</h3>
-                        <p class="bundle-item-price">$149.99</p>
+
+            <section class="product-container">
+                <div class="product-gallery">
+                    <div class="main-image-container">
+                        <img id="mainImage" src="https://imgs.search.brave.com/94W34nkTPLRX9mt2K9NO36n3TlLKjpGcq06izojWNeQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmVyc2VkaW5jLmNv/bS9jZG4vc2hvcC9m/aWxlcy9tYWRlaW50/aGVpbWFnZWhvb2Rp/ZS5qcGc_dj0xNzAx/ODIyMTkzJndpZHRo/PTE0NDU" alt="Modern Comfort Hoodie - Main View">
+                        <div class="image-zoom-container">
+                            <div class="image-zoom"></div>
+                        </div>
+                    </div>
+                    <div class="thumbnails-container">
+                        <div class="thumbnail-scroll-btn left"><i class="fas fa-chevron-left"></i></div>
+                        <div class="thumbnails-wrapper">
+                            <div class="thumbnails">
+                                <img class="thumbnail active" src="https://imgs.search.brave.com/O3rGosM1BnykHJsxokoyutlBWCAFLF8ted232wO3_v4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jaHJpc3RtYXMt/Z3JlZW4taG9vZGll/LW1vY2t1cF83NzY4/OTQtNjY1MjEuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MA" data-image="https://imgs.search.brave.com/O3rGosM1BnykHJsxokoyutlBWCAFLF8ted232wO3_v4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jaHJpc3RtYXMt/Z3JlZW4taG9vZGll/LW1vY2t1cF83NzY4/OTQtNjY1MjEuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MA" alt="Hoodie Front View">
+                                <img class="thumbnail" src="https://imgs.search.brave.com/bVxicBotxfkAbAJZFogJGsyrcIMpVPOeQSz-c-IwIyo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2NhLzQ2/LzUxL2NhNDY1MTQw/MjEyOTRhMmY3NDg4/YzI0MGM5NTY3ZmEx/LmpwZw" data-image="https://imgs.search.brave.com/bVxicBotxfkAbAJZFogJGsyrcIMpVPOeQSz-c-IwIyo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2NhLzQ2/LzUxL2NhNDY1MTQw/MjEyOTRhMmY3NDg4/YzI0MGM5NTY3ZmEx/LmpwZw" alt="Hoodie Back View">
+                                <img class="thumbnail" src="https://imgs.search.brave.com/NK3axBTSUFClROtY2yJNuQUNqBVCkLi9UH_gcK-K2Vo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9t/YW4td2hpdGUtaG9v/ZGllLXN0cmVldHdl/YXItbWVuLXMtYXBw/YXJlbC1mYXNoaW9u/XzUzODc2LTExOTgx/NS5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQw" data-image="https://imgs.search.brave.com/NK3axBTSUFClROtY2yJNuQUNqBVCkLi9UH_gcK-K2Vo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9t/YW4td2hpdGUtaG9v/ZGllLXN0cmVldHdl/YXItbWVuLXMtYXBw/YXJlbC1mYXNoaW9u/XzUzODc2LTExOTgx/NS5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQw" alt="Hoodie Back View">
+                                <img class="thumbnail" src="https://imgs.search.brave.com/Imep1KV4YynIyV7Kfjb83ZXun4Hpp9DF7jX0T2T_p6I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9ncm9z/c2NvbmZlY3Rpb25i/YXIuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzAxL0lN/R181OTM4LXNjYWxl/ZC5qcGc" data-image="https://imgs.search.brave.com/Imep1KV4YynIyV7Kfjb83ZXun4Hpp9DF7jX0T2T_p6I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9ncm9z/c2NvbmZlY3Rpb25i/YXIuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzAxL0lN/R181OTM4LXNjYWxl/ZC5qcGc" alt="Hoodie Side View">
+                                <img class="thumbnail" src="https://imgs.search.brave.com/ZNtIJ1FX8tlpVKaVp-uU-wKLiuqnUs4QO90PMzvGU78/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yZWZs/ZWN0aW9uc29mdHJp/bml0eS5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/dW5pc2V4LXByZW1p/dW0taG9vZGllLXdo/aXRlLWZyb250LTY0/ZTVlMzBhOGI3ZDgu/cG5n" data-image="https://imgs.search.brave.com/ZNtIJ1FX8tlpVKaVp-uU-wKLiuqnUs4QO90PMzvGU78/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yZWZs/ZWN0aW9uc29mdHJp/bml0eS5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/dW5pc2V4LXByZW1p/dW0taG9vZGllLXdo/aXRlLWZyb250LTY0/ZTVlMzBhOGI3ZDgu/cG5n" alt="Hoodie Detail View">
+                                <img class="thumbnail" src="https://imgs.search.brave.com/2AnhG7n7HwJVrgmx0hA84EiDvwj3yyzEc1yutJNPl7M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9ybHYu/emNhY2hlLmNvbS9w/ZXJzb25hbGl6ZWRf/cGhvdG9fYW5kX3Rl/eHRfYmxhY2tfaG9v/ZGllLXJfOG9yMmxm/XzMwNy5qcGc" data-image="https://imgs.search.brave.com/2AnhG7n7HwJVrgmx0hA84EiDvwj3yyzEc1yutJNPl7M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9ybHYu/emNhY2hlLmNvbS9w/ZXJzb25hbGl6ZWRf/cGhvdG9fYW5kX3Rl/eHRfYmxhY2tfaG9v/ZGllLXJfOG9yMmxm/XzMwNy5qcGc" alt="Hoodie Worn View">
+                                <img class="thumbnail" src="https://imgs.search.brave.com/hdpJ1O9e07yFhFBVkaOEfECkZmDCKgAy2rlimRfLL-k/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yZWZs/ZWN0aW9uc29mdHJp/bml0eS5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/dW5pc2V4LXByZW1p/dW0taG9vZGllLXdo/aXRlLWJhY2stNjRl/NWUzMGE4ZDhjMS5w/bmc" data-image="https://imgs.search.brave.com/hdpJ1O9e07yFhFBVkaOEfECkZmDCKgAy2rlimRfLL-k/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yZWZs/ZWN0aW9uc29mdHJp/bml0eS5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/dW5pc2V4LXByZW1p/dW0taG9vZGllLXdo/aXRlLWJhY2stNjRl/NWUzMGE4ZDhjMS5w/bmc" alt="Hoodie Fabric Detail">
+                            </div>
+                        </div>
+                        <div class="thumbnail-scroll-btn right"><i class="fas fa-chevron-right"></i></div>
                     </div>
                 </div>
-                <div class="bundle-plus">+</div>
-                <div class="bundle-item">
-                    <img src="https://via.placeholder.com/120x120/ff6b6b/ffffff" alt="Running Socks">
-                    <div class="bundle-item-info">
-                        <h3>Performance Running Socks (3-Pack)</h3>
-                        <p class="bundle-item-price">$24.99</p>
+
+                <div class="product-info">
+                    <div class="product-badges">
+                        <span class="badge new">New</span>
+                        <span class="badge bestseller">Bestseller</span>
+                    </div>
+                    <h1 class="product-title">Modern Comfort Hoodie</h1>
+                    <div class="product-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="reviews-count">42 reviews</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="price">$89.99</span>
+                        <span class="original-price">$119.99</span>
+                        <span class="discount">-25%</span>
+                    </div>
+                    <p class="product-short-desc">Premium quality cotton blend hoodie with modern fit and exceptional comfort for everyday wear.</p>
+
+                    <div class="product-variants">
+                        <div class="variant-group">
+                            <label>Color: <span class="selected-color">Navy Blue</span></label>
+                            <div class="color-options">
+                                <div class="color-option active" style="background-color: #1e3a5f;" data-color="Navy Blue"></div>
+                                <div class="color-option" style="background-color: #222;" data-color="Black"></div>
+                                <div class="color-option" style="background-color: #666;" data-color="Charcoal"></div>
+                                <div class="color-option" style="background-color: #9c8468;" data-color="Camel"></div>
+                                <div class="color-option" style="background-color: #7b9094;" data-color="Sage"></div>
+                            </div>
+                            <div class="variant-actions">
+                                <button class="compare-colors-btn">Compare Colors</button>
+                            </div>
+                        </div>
+
+                        <div class="variant-group">
+                            <label>Size: <span class="selected-size">M</span></label>
+                            <div class="size-options">
+                                <button class="size-option">XS</button>
+                                <button class="size-option">S</button>
+                                <button class="size-option active">M</button>
+                                <button class="size-option">L</button>
+                                <button class="size-option">XL</button>
+                                <button class="size-option">XXL</button>
+                            </div>
+                            <div class="variant-actions">
+                                <button class="size-chart-btn">Size Chart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-actions">
+                        <div class="quantity">
+                            <button class="minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" value="1" min="1" max="99">
+                            <button class="plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Free shipping on orders over $50</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-box"></i>
+                            <span>30-day free returns</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>2-year quality guarantee</span>
+                        </div>
                     </div>
                 </div>
-                <div class="bundle-plus">+</div>
-                <div class="bundle-item">
-                    <img src="https://via.placeholder.com/120x120/1dd1a1/ffffff" alt="Running Shorts">
-                    <div class="bundle-item-info">
-                        <h3>Lightweight Running Shorts</h3>
-                        <p class="bundle-item-price">$39.99</p>
+            </section>
+
+            <section class="product-details">
+                <div class="tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="description">Description</button>
+                        <button class="tab-btn" data-tab="information">Product Information</button>
+                        <button class="tab-btn" data-tab="shipping">Shipping Details</button>
+                    </div>
+                    <div class="tab-content">
+                        <div id="description" class="tab-panel active">
+                            <h3>Product Description</h3>
+                            <p>Introducing our Modern Comfort Hoodie, the perfect blend of style and comfort. Crafted from premium cotton blend fabric, this hoodie offers exceptional softness and durability for everyday wear.</p>
+                            <p>The modern fit provides a sleek silhouette while allowing freedom of movement, making it ideal for both lounging at home and casual outings. The adjustable hood and kangaroo pocket add practical functionality, while the ribbed cuffs and hem ensure a secure, comfortable fit.</p>
+                            <p>Available in a range of versatile colors, this hoodie is designed to seamlessly integrate into any wardrobe. The subtle embroidered logo adds a touch of sophistication without overwhelming the clean, minimalist design.</p>
+                            <p>Whether you're heading to the gym, running errands, or simply relaxing, our Modern Comfort Hoodie delivers the perfect combination of style, comfort, and quality that you can count on day after day.</p>
+                        </div>
+                        <div id="information" class="tab-panel">
+                            <h3>Product Information</h3>
+                            <h4>Materials & Composition</h4>
+                            <ul>
+                                <li>80% Cotton, 20% Polyester</li>
+                                <li>Brushed interior for extra softness</li>
+                                <li>Medium weight: 320 GSM (grams per square meter)</li>
+                            </ul>
+                            <h4>Features</h4>
+                            <ul>
+                                <li>Adjustable drawstring hood</li>
+                                <li>Front kangaroo pocket</li>
+                                <li>Ribbed cuffs and hem</li>
+                                <li>Double-needle stitching for durability</li>
+                                <li>Subtle embroidered logo on left chest</li>
+                            </ul>
+                            <h4>Care Instructions</h4>
+                            <ul>
+                                <li>Machine wash cold with similar colors</li>
+                                <li>Do not bleach</li>
+                                <li>Tumble dry low</li>
+                                <li>Do not iron print/decoration</li>
+                                <li>Do not dry clean</li>
+                            </ul>
+                        </div>
+                        <div id="shipping" class="tab-panel">
+                            <h3>Shipping Details</h3>
+                            <h4>Delivery Options</h4>
+                            <table class="shipping-table">
+                                <thead>
+                                    <tr>
+                                        <th>Shipping Method</th>
+                                        <th>Estimated Delivery</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Standard Shipping</td>
+                                        <td>3-5 business days</td>
+                                        <td>$5.99 (Free over $50)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Express Shipping</td>
+                                        <td>1-2 business days</td>
+                                        <td>$12.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Next Day Delivery</td>
+                                        <td>Next business day</td>
+                                        <td>$19.99</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Returns Policy</h4>
+                            <p>We offer a 30-day return policy for all unused and unworn items with original tags attached. Return shipping is free for customers in the continental US. For international returns, the customer is responsible for return shipping costs.</p>
+                            <h4>International Shipping</h4>
+                            <p>We ship to over 80 countries worldwide. International shipping rates and delivery times vary depending on location. Customs fees and import duties may apply and are the responsibility of the customer.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="bundle-summary">
-                <div class="bundle-total">
-                    <p>Bundle Price: <span>$199.99</span></p>
-                    <p class="savings">You Save: $14.98</p>
+            </section>
+
+            <section class="product-bundle">
+                <h2 class="section-title">Complete the Look</h2>
+                <div class="bundle-container">
+                    <div class="bundle-products">
+                        <div class="bundle-product">
+                            <img src="https://imgs.search.brave.com/9qPytSoL7pXAn28_8BEUW8MM9yuSYHm6GnlLJ594KT4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vQ29t/Zm9ydC1Db2xvcnMt/MTU2Ni1BZHVsdC1D/cmV3bmVjay1Td2Vh/dHNoaXJ0XzU5ZWE4/YjYyLTBlMTYtNGQ5/NC04NTE0LTcyYzdk/NDMzNDM1OC5kNDFi/ZDFmNzQ3YzE1YmRl/NDBhODhhM2JkOWU1/YmIxMy5qcGVnP29k/bkhlaWdodD03ODQm/b2RuV2lkdGg9NTgw/Jm9kbkJnPUZGRkZG/Rg" alt="Modern Comfort Hoodie">
+                            <h3>Modern Comfort Hoodie</h3>
+                            <p class="price">$89.99</p>
+                        </div>
+                        <div class="bundle-plus">+</div>
+                        <div class="bundle-product">
+                            <img src="https://imgs.search.brave.com/dSo0wGGEbrOyMseG29ZxCoWQkiIDiTRJ5o-R50proFw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzAx/NTYvNjE0Ni9maWxl/cy9Fc3NlbnRpYWxP/dmVyc2l6ZWRKb2dn/ZXJDaGFyY29hbEdy/ZXlNYXJsQTJBN1Qt/R0JGSDgwMDdfMzg0/MHguanBnP3Y9MTc0/MTk2MjU0OA" alt="Essential Joggers">
+                            <h3>Essential Joggers</h3>
+                            <p class="price">$69.99</p>
+                        </div>
+                        <div class="bundle-plus">+</div>
+                        <div class="bundle-product">
+                            <img src="https://imgs.search.brave.com/epkAh-hhdQ7xK0Zu8ZiFbtWLvbLAfjp-zAVXVtXn-VQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODE4aGhUTG1Lb0wu/anBn" alt="Classic Cap">
+                            <h3>Classic Cap</h3>
+                            <p class="price">$29.99</p>
+                        </div>
+                    </div>
+                    <div class="bundle-summary">
+                        <div class="bundle-pricing">
+                            <p class="bundle-total-label">Bundle Price</p>
+                            <p class="bundle-total">$169.99</p>
+                            <p class="bundle-original">$189.97</p>
+                            <p class="bundle-save">Save $19.98</p>
+                        </div>
+                        <button class="bundle-add-btn">Add Bundle to Cart</button>
+                    </div>
                 </div>
-                <button class="add-bundle-btn">Add Bundle to Cart</button>
-            </div>
-        </section>
-        
-        <!-- Pair Well With -->
-        <section class="pair-well-with">
-            <h2>Pair Well With</h2>
-            <div class="pair-products">
-                <div class="pair-product">
-                    <img src="https://via.placeholder.com/200x200/1dd1a1/ffffff" alt="Athletic Socks">
-                    <h3>Athletic Ankle Socks</h3>
-                    <p class="pair-product-price">$12.99</p>
-                    <button class="pair-add-btn">Add</button>
+            </section>
+
+            <section class="pair-well-with">
+                <h2 class="section-title">Pair Well With</h2>
+                <div class="pair-container">
+                    <div class="scroll-btn left"><i class="fas fa-chevron-left"></i></div>
+                    <div class="pair-items-wrapper">
+                        <div class="pair-items">
+                            <div class="pair-item">
+                                <img src="https://imgs.search.brave.com/788AMQBNtySFCWlRWQAGUREJb2pS8v97tLVRWxKJ-SM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vSGFu/ZXMtT3JpZ2luYWxz/LVN1cGVyU29mdC1N/ZW4tcy1DcmV3bmVj/ay1TaG9ydC1TbGVl/dmUtVGVlLTMtUGFj/ay1TaXplcy1TLTNY/TF83MjU2NjFkZi01/MDRhLTRiZjctOWE5/Yi1mNjllOWY3MDkx/NjAuN2QwYmMxMTIz/NjVlMGY3MjgxYTk0/ODc3YTg4MDRlYzAu/anBlZz9vZG5IZWln/aHQ9NTgwJm9kbldp/ZHRoPTU4MCZvZG5C/Zz1GRkZGRkY" alt="Basic Tee">
+                                <h3>Basic Tee</h3>
+                                <p class="price">$24.99</p>
+                                <button class="pair-add-btn">Add to Cart</button>
+                            </div>
+                            <div class="pair-item">
+                                <img src="https://imgs.search.brave.com/8x7Ut1Tvthmv3xH6zlGUZIgMeWkwZ2hEFBDKcgVbzXA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNzIy/NjEyMzEyLW1obC0w/NTIyMjQtamVhbnMt/YW1hem9uMTQ4OS02/NmFjZmEzY2JiYmU4/LmpwZz9jcm9wPTF4/dzoxeGg7Y2VudGVy/LHRvcCZyZXNpemU9/OTgwOio" alt="Slim Fit Jeans">
+                                <h3>Slim Fit Jeans</h3>
+                                <p class="price">$79.99</p>
+                                <button class="pair-add-btn">Add to Cart</button>
+                            </div>
+                            <div class="pair-item">
+                                <img src="https://imgs.search.brave.com/5oVGLHCxRmSlKOTG_0d9MUyj1UVzkRyBxEN2PTy21Oc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFoczNIa3Q2Ykwu/anBn" alt="Canvas Sneakers">
+                                <h3>Canvas Sneakers</h3>
+                                <p class="price">$59.99</p>
+                                <button class="pair-add-btn">Add to Cart</button>
+                            </div>
+                            <div class="pair-item">
+                                <img src="https://imgs.search.brave.com/v8k7tmVeH_o9Vc_riwYS5tgqnScp68hhgcfee66GPqg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFDTXVBaEdwMEwu/anBn" alt="Casual Watch">
+                                <h3>Casual Watch</h3>
+                                <p class="price">$129.99</p>
+                                <button class="pair-add-btn">Add to Cart</button>
+                            </div>
+                            <div class="pair-item">
+                                <img src="https://imgs.search.brave.com/nvFhM0WD9PIZ8F0n86Mjg-lLIfBAd4ohf8BW-oNKrus/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b2ZmYmVhdHN3ZWV0/aWUuY29tL2Nkbi9z/aG9wL2ZpbGVzLzI3/X2VlNmU1ZDI4LWYw/NzYtNDY1Mi04ODcz/LTQwMTk0Y2JkMjdh/MS5wbmc_dj0xNzQ1/ODA0Nzg0JndpZHRo/PTUzMw" alt="Weekender Bag">
+                                <h3>Weekender Bag</h3>
+                                <p class="price">$89.99</p>
+                                <button class="pair-add-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-btn right"><i class="fas fa-chevron-right"></i></div>
                 </div>
-                <div class="pair-product">
-                    <img src="https://via.placeholder.com/200x200/ff6b6b/ffffff" alt="Running Hat">
-                    <h3>Lightweight Running Cap</h3>
-                    <p class="pair-product-price">$19.99</p>
-                    <button class="pair-add-btn">Add</button>
+            </section>
+
+            <section class="related-products">
+                <h2 class="section-title">You May Also Like</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge popular">Popular</div>
+                        <img src="https://imgs.search.brave.com/3E8ZrAhchM65FkCrn2igxAzlGqgEb-aKnG5FlZ_W8bI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9raW1l/c3JhbmNoLmNvbS9j/ZG4vc2hvcC9wcm9k/dWN0cy92aW50YWdl/LWNyZXctbWVucy10/b3BzLW5hdnktM18x/LmpwZz92PTE3MjUw/Mzk1MDkmd2lkdGg9/MjA0OA" alt="Classic Crew Neck">
+                        <h3>Classic Crew Neck</h3>
+                        <div class="product-card-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span>28 reviews</span>
+                        </div>
+                        <p class="price">$49.99</p>
+                        <div class="product-card-colors">
+                            <span style="background-color: #222;"></span>
+                            <span style="background-color: #7b9094;"></span>
+                            <span style="background-color: #1e3a5f;"></span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge new">New</div>
+                        <img src="https://imgs.search.brave.com/ZiXGukyL5MqgLNsDgLJgF8ezy1zx9BK6--1s3oLUuqc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zZnlj/ZG4uc3BlZWRzaXpl/LmNvbS9mYmFmNjUw/Ni04MWUxLTQzYTIt/YmNjMS04MGUxOGM3/YjAxNDYvaHR0cHM6/Ly9yZXByZXNlbnRj/bG8uY29tL2Nkbi9z/aG9wL2ZpbGVzL0lO/SVRJQUxaSVBIT09E/SUVEVU5FNy5qcGc_/dj0xNzM0MDI2MzM4/JndpZHRoPTIwMDA" alt="Zip-Up Sweatshirt">
+                        <h3>Zip-Up Sweatshirt</h3>
+                        <div class="product-card-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>14 reviews</span>
+                        </div>
+                        <p class="price">$69.99</p>
+                        <div class="product-card-colors">
+                            <span style="background-color: #222;"></span>
+                            <span style="background-color: #9c8468;"></span>
+                            <span style="background-color: #666;"></span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://imgs.search.brave.com/ELE-Dvp-FDs1fI_rzDWm1DmZCaSY5MVC1zNC7_GYi8U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/MS5iaWdjb21tZXJj/ZS5jb20vcy04amg0/eTRpZDZ3L2ltYWdl/cy9zdGVuY2lsLzUw/MHg1MDAvcHJvZHVj/dHMvMzk3LzEwODUv/SE1XQy1VMjRfMDdf/XzA3NTQzLjE2NTcx/MjU2OTAuanBnP2M9/MQ" alt="Lightweight Cardigan">
+                        <h3>Lightweight Cardigan</h3>
+                        <div class="product-card-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span>19 reviews</span>
+                        </div>
+                        <p class="price">$59.99</p>
+                        <div class="product-card-colors">
+                            <span style="background-color: #7b9094;"></span>
+                            <span style="background-color: #1e3a5f;"></span>
+                            <span style="background-color: #9c8468;"></span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge sale">Sale</div>
+                        <img src="https://imgs.search.brave.com/9pi2QnaPh0tVkt8bWjO7U0m6a5rZ9BAfflEHoLmLAu8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/MS5iaWdjb21tZXJj/ZS5jb20vcy1kMThp/ZXB1MGNzL2ltYWdl/cy9zdGVuY2lsLzUw/MHg2NTkvcHJvZHVj/dHMvNTE4NTAvODM4/MDAvTUNTMDc3MjZf/Q0NIX1BST19IR19s/YXllcl9jb21wJndp/ZF84MDAmaGVpXzEw/MDAmZm10X2pwZWcm/cWx0XzEwMF8wJm9w/X3NoYXJwZW5fMCZy/ZXNNb2RlX25vcm0m/b3BfdXNtXzAuNV8x/LjBfMF9fMDAwNTku/MTcyODQwMzIyNi5q/cGc_Yz0y" alt="V-Neck Pullover">
+                        <h3>V-Neck Pullover</h3>
+                        <div class="product-card-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>32 reviews</span>
+                        </div>
+                        <p class="price">$44.99</p>
+                        <p class="original-price">$64.99</p>
+                        <div class="product-card-colors">
+                            <span style="background-color: #222;"></span>
+                            <span style="background-color: #666;"></span>
+                            <span style="background-color: #9c8468;"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="pair-product">
-                    <img src="https://via.placeholder.com/200x200/5f27cd/ffffff" alt="Water Bottle">
-                    <h3>Sports Water Bottle</h3>
-                    <p class="pair-product-price">$24.99</p>
-                    <button class="pair-add-btn">Add</button>
-                </div>
-                <div class="pair-product">
-                    <img src="https://via.placeholder.com/200x200/feca57/ffffff" alt="Fitness Tracker">
-                    <h3>Activity Tracker Band</h3>
-                    <p class="pair-product-price">$49.99</p>
-                    <button class="pair-add-btn">Add</button>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Related Products -->
-        <section class="related-products">
-            <h2>You May Also Like</h2>
-            <div class="related-grid">
-                <div class="related-product">
-                    <div class="related-badge">Best Seller</div>
-                    <img src="https://via.placeholder.com/300x300/ff6b6b/ffffff" alt="Trail Running Shoes">
-                    <h3>Trail Running Shoes</h3>
-                    <p class="related-product-price">$169.99</p>
-                </div>
-                <div class="related-product">
-                    <div class="related-badge">New</div>
-                    <img src="https://via.placeholder.com/300x300/1dd1a1/ffffff" alt="Walking Shoes">
-                    <h3>Comfort Walking Shoes</h3>
-                    <p class="related-product-price">$129.99</p>
-                </div>
-                <div class="related-product">
-                    <img src="https://via.placeholder.com/300x300/5f27cd/ffffff" alt="Gym Shoes">
-                    <h3>CrossFit Training Shoes</h3>
-                    <p class="related-product-price">$139.99</p>
-                </div>
-                <div class="related-product">
-                    <div class="related-badge">Sale</div>
-                    <img src="https://via.placeholder.com/300x300/feca57/ffffff" alt="Casual Sneakers">
-                    <h3>Everyday Casual Sneakers</h3>
-                    <p class="related-product-price">$89.99</p>
-                    <p class="original-price">$119.99</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
-    
+
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-col">
+                <div class="footer-column">
                     <h3>Shop</h3>
                     <ul>
                         <li><a href="#">New Arrivals</a></li>
-                        <li><a href="#">Men</a></li>
-                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men's Collection</a></li>
+                        <li><a href="#">Women's Collection</a></li>
                         <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h3>Help</h3>
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
                     <ul>
-                        <li><a href="#">Customer Service</a></li>
-                        <li><a href="#">Track Order</a></li>
-                        <li><a href="#">Returns & Exchanges</a></li>
-                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h3>About</h3>
+                <div class="footer-column">
+                    <h3>About Us</h3>
                     <ul>
                         <li><a href="#">Our Story</a></li>
                         <li><a href="#">Sustainability</a></li>
@@ -261,103 +420,252 @@
                         <li><a href="#">Press</a></li>
                     </ul>
                 </div>
-                <div class="footer-col newsletter">
-                    <h3>Stay Updated</h3>
-                    <p>Subscribe to our newsletter for exclusive offers.</p>
-                    <div class="newsletter-form">
-                        <input type="email" placeholder="Your email">
-                        <button>Subscribe</button>
+                <div class="footer-column">
+                    <h3>Stay Connected</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
                     </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to our newsletter</h4>
+                        <form>
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 StyleShop. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
                 </div>
             </div>
         </div>
     </footer>
-    
+
     <!-- Modals -->
-    <div class="modal-overlay" id="sizeChartModal">
-        <div class="modal-content">
-            <button class="modal-close">&times;</button>
-            <h3>Size Chart</h3>
-            <table class="size-chart-table">
-                <thead>
-                    <tr>
-                        <th>US Size</th>
-                        <th>EU Size</th>
-                        <th>UK Size</th>
-                        <th>Inches</th>
-                        <th>CM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>7</td>
-                        <td>40</td>
-                        <td>6.5</td>
-                        <td>9.6"</td>
-                        <td>24.5</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>41</td>
-                        <td>7.5</td>
-                        <td>9.9"</td>
-                        <td>25.2</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>42</td>
-                        <td>8.5</td>
-                        <td>10.2"</td>
-                        <td>26.0</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>43</td>
-                        <td>9.5</td>
-                        <td>10.6"</td>
-                        <td>26.8</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>44</td>
-                        <td>10.5</td>
-                        <td>10.9"</td>
-                        <td>27.6</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    
-    <div class="modal-overlay" id="compareColorsModal">
-        <div class="modal-content">
-            <button class="modal-close">&times;</button>
-            <h3>Compare Colors</h3>
-            <div class="compare-colors-container">
-                <div class="compare-color-item">
-                    <div class="compare-color-swatch" style="background-color: #000;"></div>
-                    <span>Classic Black</span>
-                    <button class="compare-select-btn">Select</button>
-                </div>
-                <div class="compare-color-item">
-                    <div class="compare-color-swatch" style="background-color: #ff6b6b;"></div>
-                    <span>Vibrant Red</span>
-                    <button class="compare-select-btn">Select</button>
-                </div>
-                <div class="compare-color-item">
-                    <div class="compare-color-swatch" style="background-color: #5f27cd;"></div>
-                    <span>Deep Purple</span>
-                    <button class="compare-select-btn">Select</button>
-                </div>
-                <div class="compare-color-item">
-                    <div class="compare-color-swatch" style="background-color: #1dd1a1;"></div>
-                    <span>Mint Green</span>
-                    <button class="compare-select-btn">Select</button>
+    <div id="sizeChartModal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Size Chart</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-content">
+                <table class="size-chart-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Chest (in)</th>
+                            <th>Waist (in)</th>
+                            <th>Hip (in)</th>
+                            <th>Length (in)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XS</td>
+                            <td>34-36</td>
+                            <td>28-30</td>
+                            <td>34-36</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td>36-38</td>
+                            <td>30-32</td>
+                            <td>36-38</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>38-40</td>
+                            <td>32-34</td>
+                            <td>38-40</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>40-42</td>
+                            <td>34-36</td>
+                            <td>40-42</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>42-44</td>
+                            <td>36-38</td>
+                            <td>42-44</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>XXL</td>
+                            <td>44-46</td>
+                            <td>38-40</td>
+                            <td>44-46</td>
+                            <td>30</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="sizing-notes">
+                    <h3>How to Measure</h3>
+                    <p><strong>Chest:</strong> Measure around the fullest part of your chest, keeping the tape measure horizontal.</p>
+                    <p><strong>Waist:</strong> Measure around your natural waistline, keeping the tape measure horizontal.</p>
+                    <p><strong>Hip:</strong> Measure around the fullest part of your hips, keeping the tape measure horizontal.</p>
+                    <p><strong>Length:</strong> Measure from the highest point of the shoulder to the bottom hem.</p>
                 </div>
             </div>
         </div>
     </div>
-    
+
+    <div id="compareColorsModal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Compare Colors</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-content">
+                <div class="color-comparison">
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #1e3a5f;"></div>
+                        <div class="compare-color-info">
+                            <h3>Navy Blue</h3>
+                            <p>Rich navy tone, perfect for versatile styling. Our most popular color.</p>
+                            <button class="compare-select-btn selected">Selected</button>
+                        </div>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #222;"></div>
+                        <div class="compare-color-info">
+                            <h3>Black</h3>
+                            <p>Classic black that pairs with everything. Timeless and versatile.</p>
+                            <button class="compare-select-btn">Select</button>
+                        </div>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #666;"></div>
+                        <div class="compare-color-info">
+                            <h3>Charcoal</h3>
+                            <p>Deep gray with subtle undertones. Modern alternative to black.</p>
+                            <button class="compare-select-btn">Select</button>
+                        </div>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #9c8468;"></div>
+                        <div class="compare-color-info">
+                            <h3>Camel</h3>
+                            <p>Warm neutral tone that elevates your casual wardrobe. Seasonal favorite.</p>
+                            <button class="compare-select-btn">Select</button>
+                        </div>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #7b9094;"></div>
+                        <div class="compare-color-info">
+                            <h3>Sage</h3>
+                            <p>Soft, muted green with gray undertones. On-trend earthy tone.</p>
+                            <button class="compare-select-btn">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cartModal" class="modal-overlay">
+        <div class="modal cart-modal">
+            <div class="modal-header">
+                <h2>Your Cart</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-content">
+                <div class="cart-items-container">
+                    <!-- Cart items will be dynamically added here -->
+                    <p>Your cart is currently empty.</p>
+                </div>
+                <div class="cart-summary">
+                    <div class="cart-totals">
+                        <div class="cart-total-row">
+                            <span>Subtotal</span>
+                            <span id="cartSubtotal">$0.00</span>
+                        </div>
+                        <div class="cart-total-row">
+                            <span>Shipping</span>
+                            <span>Calculated at checkout</span>
+                        </div>
+                        <div class="cart-total-row total">
+                            <span>Total</span>
+                            <span id="cartTotal">$0.00</span>
+                        </div>
+                    </div>
+                    <div class="cart-actions">
+                        <button class="view-cart-btn">View Cart</button>
+                        <button class="checkout-btn">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Placeholder for product images -->
+    <script>
+        // This script creates placeholder images for development purposes
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to create a simple colored rectangle with text as placeholder
+            function createPlaceholder(width, height, text, color) {
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                
+                // Draw background
+                ctx.fillStyle = color || '#f0f0f0';
+                ctx.fillRect(0, 0, width, height);
+                
+                // Draw border
+                ctx.strokeStyle = '#ddd';
+                ctx.lineWidth = 2;
+                ctx.strokeRect(1, 1, width - 2, height - 2);
+                
+                // Draw text
+                ctx.fillStyle = '#555';
+                ctx.font = 'bold 16px Arial';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(text || `${width}x${height}`, width / 2, height / 2);
+                
+                return canvas.toDataURL();
+            }
+            
+            // Create placeholders for all product images if they don't load
+            const imagesToHandle = document.querySelectorAll('img');
+            imagesToHandle.forEach(img => {
+                img.onerror = function() {
+                    const width = img.width || 300;
+                    const height = img.height || 300;
+                    const text = img.alt || 'Image Placeholder';
+                    const color = img.dataset.placeholderColor || null;
+                    img.src = createPlaceholder(width, height, text, color);
+                };
+                
+                // Trigger error handler if the src is empty or undefined
+                if (!img.src || img.src === window.location.href) {
+                    img.src = "assets/" + (img.dataset.image || "placeholder.jpg");
+                }
+            });
+        });
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>
+                
